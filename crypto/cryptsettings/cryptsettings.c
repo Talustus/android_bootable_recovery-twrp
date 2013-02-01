@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "../crypto/fs_mgr/include/fs_mgr.h"
+#include "../fs_mgr/include/fs_mgr.h"
 
 #include "cutils/properties.h"
 
