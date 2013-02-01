@@ -985,7 +985,7 @@
 
 			<object type="button">
 				<condition var1="tw_show_reboot" var2="1" />
-				<placement x="%col_center_x%" y="%row4_y%" />
+				<placement x="%col_center_x%" y="%row6_y%" />
 				<font resource="font" color="%button_text_color%" />
 				<text>Reboot System</text>
 				<image resource="main_button" />
