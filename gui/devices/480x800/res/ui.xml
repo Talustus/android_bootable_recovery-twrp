@@ -497,7 +497,7 @@
 					<condition var1="tw_has_dual_storage" var2="1" />
 					<condition var1="tw_use_external_storage" var2="1" />
 				</conditions>
-				<text>Use internal storage</text>
+				<text>Use internal SD</text>
 				<image resource="radio_false" />
 				<action function="togglestorage">internal</action>
 			</object>
@@ -509,7 +509,7 @@
 					<condition var1="tw_has_dual_storage" var2="1" />
 					<condition var1="tw_use_external_storage" var2="0" />
 				</conditions>
-				<text>Use internal storage</text>
+				<text>Use internal SD</text>
 				<image resource="radio_true" />
 				<action function="togglestorage">internal</action>
 			</object>
@@ -985,7 +985,7 @@
 
 			<object type="button">
 				<condition var1="tw_show_reboot" var2="1" />
-				<placement x="%col_center_x%" y="%row6_y%" />
+				<placement x="%col_center_x%" y="%row5_y%" />
 				<font resource="font" color="%button_text_color%" />
 				<text>Reboot System</text>
 				<image resource="main_button" />
@@ -1146,7 +1146,7 @@
 				<condition var1="tw_has_external" var2="1" />
 				<placement x="%col1_x%" y="%row3_y%" />
 				<font resource="font" color="%button_text_color%" />
-				<text>External Storage</text>
+				<text>External SDCard</text>
 				<image resource="main_button" />
 				<actions>
 					<action function="set">tw_back=wipe</action>
@@ -1167,7 +1167,7 @@
 				<condition var1="tw_has_internal" var2="1" />
 				<placement x="%col2_x%" y="%row3_y%" />
 				<font resource="font" color="%button_text_color%" />
-				<text>Internal Storage</text>
+				<text>Internal SDCard</text>
 				<image resource="main_button" />
 				<actions>
 					<action function="set">tw_back=wipe</action>
@@ -1448,7 +1448,7 @@
 					<condition var1="tw_has_dual_storage" var2="1" />
 					<condition var1="tw_use_external_storage" var2="1" />
 				</conditions>
-				<text>Use internal storage</text>
+				<text>Use internal SD</text>
 				<image resource="radio_false" />
 				<action function="togglestorage">internal</action>
 			</object>
@@ -1460,7 +1460,7 @@
 					<condition var1="tw_has_dual_storage" var2="1" />
 					<condition var1="tw_use_external_storage" var2="0" />
 				</conditions>
-				<text>Use internal storage</text>
+				<text>Use internal SD</text>
 				<image resource="radio_true" />
 				<action function="togglestorage">internal</action>
 			</object>
@@ -1615,7 +1615,7 @@
 					<condition var1="tw_has_dual_storage" var2="1" />
 					<condition var1="tw_use_external_storage" var2="1" />
 				</conditions>
-				<text>Use internal storage</text>
+				<text>Use internal SD</text>
 				<image resource="radio_false" />
 				<action function="togglestorage">internal</action>
 			</object>
@@ -1627,7 +1627,7 @@
 					<condition var1="tw_has_dual_storage" var2="1" />
 					<condition var1="tw_use_external_storage" var2="0" />
 				</conditions>
-				<text>Use internal storage</text>
+				<text>Use internal SD</text>
 				<image resource="radio_true" />
 				<action function="togglestorage">internal</action>
 			</object>
@@ -2110,7 +2110,7 @@
 					<condition var1="tw_has_dual_storage" var2="1" />
 					<condition var1="tw_use_external_storage" var2="1" />
 				</conditions>
-				<text>Use internal storage</text>
+				<text>Use internal SD</text>
 				<image resource="radio_false" />
 				<action function="togglestorage">internal</action>
 			</object>
@@ -2122,7 +2122,7 @@
 					<condition var1="tw_has_dual_storage" var2="1" />
 					<condition var1="tw_use_external_storage" var2="0" />
 				</conditions>
-				<text>Use internal storage</text>
+				<text>Use internal SD</text>
 				<image resource="radio_true" />
 				<action function="togglestorage">internal</action>
 			</object>
