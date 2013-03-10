@@ -98,7 +98,7 @@
 		<variable name="text_color" value="#FFFFFF" />
 		<variable name="text_success_color" value="#00e600" />
 		<variable name="text_fail_color" value="#33a8e5" />
-		<variable name="highlight_color" value="#01DF01" />
+		<variable name="highlight_color" value="#01DF0180" />
 		<variable name="home_button_x" value="10" />
 		<variable name="home_button_y" value="766" />
 		<variable name="back_button_x" value="413" />
