@@ -509,7 +509,7 @@
 				<fill color="%button_fill_color%" />
 				<placement x="%col1_x%" y="%row1_text_y%" w="%button_fill_full_width%" h="%button_fill_quarter_height%" />
 				<font resource="font" color="%button_text_color%" />
-				<text>Storage: %tw_storage_display_name% (%tw_storage_free_size% MB)</text>
+				<text>Storage: %tw_storage_display_name% - (%tw_storage_free_size% MB)</text>
 				<actions>
 					<action function="set">tw_back=install</action>
 					<action function="page">selectstorage</action>
@@ -1392,7 +1392,7 @@
 				<fill color="%button_fill_color%" />
 				<placement x="%col1_x%" y="%backup_button_row2%" w="%button_fill_full_width%" h="%button_fill_quarter_height%" />
 				<font resource="font" color="%button_text_color%" />
-				<text>Storage: %tw_storage_display_name% (%tw_storage_free_size% MB)</text>
+				<text>Storage: %tw_storage_display_name% - (%tw_storage_free_size% MB)</text>
 				<actions>
 					<action function="set">tw_back=backup</action>
 					<action function="page">selectstorage</action>
@@ -1400,7 +1400,7 @@
 			</object>
 
 			<object type="checkbox">
-				<placement x="%col1_x%" y="%row14_text_y%" />
+				<placement x="%col1_x%" y="%row15_text_y%" />
 				<font resource="font" color="%text_color%" />
 				<text>Enable Compression (Requires more time)</text>
 				<data variable="tw_use_compression" />
@@ -1408,7 +1408,7 @@
 			</object>
 
 			<object type="checkbox">
-				<placement x="%col1_x%" y="%row15_text_y%" />
+				<placement x="%col1_x%" y="%row16_text_y%" />
 				<font resource="font" color="%text_color%" />
 				<text>Skip MD5 generation on backups</text>
 				<data variable="tw_skip_md5_generate" />
@@ -1648,18 +1648,18 @@
 				</actions>
 			</object>
 
+			<object type="text" color="%text_color%">
+				<font resource="font" />
+				<placement x="%center_x%" y="%row14_text_y%" placement="5" />
+				<text>Package Date: %tw_restore_file_date%</text>
+			</object>
+
 			<object type="checkbox">
 				<placement x="%col1_x%" y="%row15_text_y%" />
 				<font resource="font" color="%text_color%" />
 				<text>Enable MD5 verification of backup files.</text>
 				<data variable="tw_skip_md5_check" />
 				<image checked="checkbox_true" unchecked="checkbox_false" />
-			</object>
-
-			<object type="text" color="%text_color%">
-				<font resource="font" />
-				<placement x="%center_x%" y="%row16_text_y%" placement="5" />
-				<text>Package Date: %tw_restore_file_date%</text>
 			</object>
 
 			<object type="slider">
@@ -1832,7 +1832,7 @@
 				<fill color="%button_fill_color%" />
 				<placement x="%col1_x%" y="%mount_storage_row%" w="%button_fill_full_width%" h="%button_fill_quarter_height%" />
 				<font resource="font" color="%button_text_color%" />
-				<text>Storage: %tw_storage_display_name% (%tw_storage_free_size% MB)</text>
+				<text>Storage: %tw_storage_display_name% - (%tw_storage_free_size% MB)</text>
 				<actions>
 					<action function="set">tw_back=mount</action>
 					<action function="page">selectstorage</action>
@@ -1841,7 +1841,7 @@
 
 			<object type="button">
 				<condition var1="tw_has_usb_storage" var2="1" />
-				<placement x="%col1_x%" y="row4_y" />
+				<placement x="%col1_x%" y="row5_y" />
 				<font resource="font" color="%button_text_color%" />
 				<text>Mount USB Storage</text>
 				<image resource="main_button" />
@@ -1854,7 +1854,7 @@
 					<condition var1="tw_is_decrypted" var2="0" />
 				</conditions>
 				<highlight color="%highlight_color%" />
-				<placement x="%col2_x%" y="row4_y" />
+				<placement x="%col2_x%" y="row5_y" />
 				<font resource="font" color="%button_text_color%" />
 				<text>Decrypt Data</text>
 				<image resource="main_button" />
